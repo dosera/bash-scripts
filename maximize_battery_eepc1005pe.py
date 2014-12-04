@@ -2,6 +2,7 @@
 
 # Maximize the battery runtime, using ArchLinux on an
 # Asus EEEPC 1005PE.
+# Requires powerdown (https://github.com/march-linux/powerdown).
 #
 # Written and contributed by
 #        Andre Doser <dosera AT gmail.com>
