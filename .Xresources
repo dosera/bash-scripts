@@ -53,10 +53,10 @@ URxvt.keysym.Control-Right: \033[1;5C
 
 URxvt.iso14755_52: false
 !    -- {Inc,Dec}rease Font Size
-URxvt.keysym.Control-minus:         perl:font-size:increase
-URxvt.keysym.Control-KP_Add:        perl:font-size:increase
-URxvt.keysym.Control-equal:         perl:font-size:decrease
+URxvt.keysym.Control-minus:         perl:font-size:decrease
 URxvt.keysym.Control-KP_Subtract:   perl:font-size:decrease
+URxvt.keysym.Control-KP_Add:        perl:font-size:increase
+URxvt.keysym.Control-plus:          perl:font-size:increase
 
 !     -- NO OUTPUT SCROLL --
 ! do not scroll with output
