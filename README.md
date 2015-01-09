@@ -9,7 +9,7 @@ Configuration for the rxvt-unicode terminal emulator.
 #####```.bashrc```
 Aliases, Functions and improvements for the bash.
 
-#####```tcplay-mount.sh```
+#####```tcplay_mount.sh```
 Function to mount truecrypt containers using tcplay.
 
 #####```maximize_battery_eepc1005pe.py```
