@@ -38,7 +38,7 @@ source /path/to/truecrypt_mounter.sh
 # make the linewrapping such that, if a line is too long it is cut, but it respawns after there is space available again
 for (( i=1; i<=$LINES; i++ )); do echo; done; clear
 # editor
-export EDITOR="$(if [[ -n $DISPLAY ]]; then echo 'subl3'; else echo 'nano'; fi)"	# gedit, vim 
+export EDITOR="$(if [[ -n $DISPLAY ]]; then echo 'subl3'; else echo 'nano'; fi)"
 # PS1
 export PS1='\[\033[01;32m\]\u@\h \[\033[00;31m\]\W \$ \[\033[00m\]'
 
