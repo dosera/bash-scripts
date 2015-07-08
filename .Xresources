@@ -30,35 +30,34 @@ URxvt.font:     xft:bitstream vera sans mono:size=11:antialias=true
 URxvt.boldFont: xft:bitstream vera sans mono:bold:size=11:antialias=true
 URxvt*letterSpace: -1
 
-! https://github.com/muennich/urxvt-perls
 URxvt.perl-ext-common:default,clipboard,url-select,font-size
 
-!     -- COPY n PASTE --
+!     -- copy and paste--
 URxvt.iso14755:false
 URxvt.keysym.C-C:   perl:clipboard:copy
 URxvt.keysym.C-V:   perl:clipboard:paste
 
-!     -- URL OPEN --
+!     -- url open --
 
 ! browser/command to open selected URL with
 URxvt.url-select.launcher: chromium
 ! if set to true, all URLs get underlined
 URxvt.url-select.underline: true
 
-!    -- Jump to Word etc --
+!    -- jump to word etc --
 URxvt.keysym.Control-Up:    \033[1;5A
 URxvt.keysym.Control-Down:  \033[1;5B
 URxvt.keysym.Control-Left:  \033[1;5D
 URxvt.keysym.Control-Right: \033[1;5C
 
 URxvt.iso14755_52: false
-!    -- {Inc,Dec}rease Font Size
+!    -- inc/decrease Font Size
 URxvt.keysym.Control-minus:         perl:font-size:decrease
 URxvt.keysym.Control-KP_Subtract:   perl:font-size:decrease
 URxvt.keysym.Control-KP_Add:        perl:font-size:increase
 URxvt.keysym.Control-plus:          perl:font-size:increase
 
-!     -- NO OUTPUT SCROLL --
+!     -- no output scroll --
 ! do not scroll with output
 URxvt*scrollTtyOutput: false
 
